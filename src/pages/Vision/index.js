@@ -45,7 +45,7 @@ const VisionPage = () => {
                     Syntics App Development Pvt. Ltd.
                   </Text>
                   <Text
-                    className="common-pointer sm:ml-[193px] md:ml-[250px] ml-[364px] not-italic text-white_A700 w-[auto]"
+                    className="common-pointer sm:ml-[193px] md:ml-[250px] ml-[430px] not-italic text-white_A700 w-[auto]"
                     variant="body1"
                     onClick={handleNavigate6}
                   >
@@ -73,7 +73,7 @@ const VisionPage = () => {
                   Our Mission
                 </Text>
                 <Text
-                  className="font-semibold leading-[normal] sm:mt-[16px] md:mt-[21px] mt-[31px] sm:mx-[0] text-white_A700 sm:w-[100%] w-[95%]"
+                  className="font-regular leading-[normal] text-justify sm:mt-[16px] md:mt-[21px] mt-[31px] sm:mx-[0] text-white_A700 sm:w-[100%] w-[95%]"
                   as="h5"
                   variant="h5"
                 >
@@ -95,7 +95,7 @@ const VisionPage = () => {
                 style={{ backgroundImage: "url('images/img_group17.png')" }}
               >
                 <Text
-                  className="font-normal md:mb-[128px] mb-[187px] sm:mb-[99px] md:mt-[112px] mt-[164px] sm:mt-[87px] not-italic text-white_A700 w-[auto]"
+                  className="font-normal md:mb-[128px] mb-[187px] px-6 sm:mb-[99px] md:mt-[112px] mt-[164px] sm:mt-[87px] not-italic text-white_A700 w-[auto]"
                   as="h5"
                   variant="h5"
                 >
@@ -103,7 +103,7 @@ const VisionPage = () => {
                 </Text>
               </Column>
               <Text
-                className="font-normal leading-[normal] ml-[116px] md:ml-[79px] sm:mx-[0] not-italic text-gray_400 sm:w-[100%] w-[47%]"
+                className="font-normal leading-[normal] text-justify ml-[116px] md:ml-[79px] sm:mx-[0] not-italic text-gray_400 sm:w-[100%] w-[47%]"
                 variant="body2"
               >
                 {`The sole focus of Syntics App Development's operations is on the needs of its partners and clients. Since you are our first concern, it is our duty to give you the ideal setting in which to realise your aspirations. It is crucial to precisely assess how much a business-led solution influences the perception that potential partners and clients have of the quality of the company in today's quickly expanding global economy. Now that the entire world is accessible with just a click, Syntics App Development is here to make your consumers' clicks worthwhile!`}
@@ -113,7 +113,7 @@ const VisionPage = () => {
             </Row>
             <Row className="bg-black_901 border border-gray_400 border-solid flex flex-row md:flex-wrap sm:flex-wrap items-start justify-end pl-[117px] sm:pl-[15px] md:pl-[80px] w-[100%]">
               <Text
-                className="font-normal leading-[normal] mt-[139px] sm:mt-[74px] md:mt-[95px] sm:mx-[0] not-italic text-gray_400 sm:w-[100%] w-[47%]"
+                className="font-normal leading-[normal] text-justify mt-[185px] sm:mt-[74px] md:mt-[95px] sm:mx-[0] not-italic text-gray_400 sm:w-[100%] w-[47%]"
                 variant="body2"
               >
                 A leader in the Data-Driven method and the founder and CEO of
@@ -132,7 +132,7 @@ const VisionPage = () => {
                 style={{ backgroundImage: "url('images/img_group16.png')" }}
               >
                 <Text
-                  className="font-normal leading-[normal] md:mb-[106px] mb-[155px] sm:mb-[82px] md:mt-[117px] mt-[171px] sm:mt-[91px] not-italic text-white_A700 w-[100%]"
+                  className="font-normal leading-[normal] md:mb-[106px] px-10 mb-[155px] sm:mb-[82px] md:mt-[117px] mt-[171px] sm:mt-[91px] not-italic text-white_A700 w-[100%]"
                   as="h5"
                   variant="h5"
                 >
@@ -174,7 +174,7 @@ const VisionPage = () => {
                 </Column>
               </Row>
               <Text
-                className="common-pointer sm:ml-[295px] md:ml-[381px] ml-[554px] sm:mt-[17px] md:mt-[22px] mt-[32px] not-italic text-white_A700 w-[auto]"
+                className="common-pointer sm:ml-[295px] md:ml-[381px] ml-[559px] sm:mt-[17px] md:mt-[22px] mt-[32px] not-italic text-white_A700 w-[auto]"
                 variant="body1"
                 onClick={handleNavigate2}
               >

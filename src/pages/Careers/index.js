@@ -43,7 +43,7 @@ const CareersPage = () => {
                       Syntics App Development Pvt. Ltd.
                     </Text>
                     <Text
-                      className="common-pointer sm:ml-[193px] md:ml-[250px] ml-[364px] not-italic text-white_A700 w-[auto]"
+                      className="common-pointer sm:ml-[193px] md:ml-[250px] ml-[430px] not-italic text-white_A700 w-[auto]"
                       variant="body1"
                       onClick={handleNavigate12}
                     >
@@ -91,7 +91,7 @@ const CareersPage = () => {
                   style={{ backgroundImage: "url('images/img_group14.png')" }}
                 >
                   <Text
-                    className="font-normal leading-[normal] sm:mb-[161px] md:mb-[208px] mb-[303px] sm:mt-[153px] md:mt-[198px] mt-[288px] not-italic text-gray_200 w-[100%]"
+                    className="font-normal leading-[normal] text-justify sm:mb-[161px] md:mb-[208px] mb-[303px] sm:mt-[153px] md:mt-[198px] mt-[288px] not-italic text-gray_200 w-[100%]"
                     variant="body2"
                   >
                     Talk to our specialists right away if you have any concerns
@@ -109,7 +109,7 @@ const CareersPage = () => {
                     >
                       Name
                     </Text>
-                    <div className="bg-black_901 border border-gray_400 border-solid sm:h-[39px] md:h-[50px] h-[72px] mt-[11px] sm:mt-[5px] md:mt-[7px] rounded-radius5 w-[100%]"></div>
+                    <input className="bg-black_901 border border-gray_400 border-solid text-gray_400 text-2xl px-5 sm:h-[39px] md:h-[50px] h-[72px] mt-[11px] sm:mt-[5px] md:mt-[7px] rounded-radius5 w-[100%]"></input>
                   </Column>
                   <Column className="flex flex-col justify-start sm:mt-[28px] md:mt-[37px] mt-[54px] rounded-radius5 w-[100%]">
                     <Text
@@ -118,7 +118,7 @@ const CareersPage = () => {
                     >
                       Email
                     </Text>
-                    <div className="bg-black_901 border border-gray_400 border-solid sm:h-[39px] md:h-[50px] h-[72px] mt-[11px] sm:mt-[5px] md:mt-[7px] rounded-radius5 w-[100%]"></div>
+                    <input className="bg-black_901 border border-gray_400 border-solid text-gray_400 text-2xl px-5 sm:h-[39px] md:h-[50px] h-[72px] mt-[11px] sm:mt-[5px] md:mt-[7px] rounded-radius5 w-[100%]"></input>
                   </Column>
                   <Column className="flex flex-col justify-start sm:mt-[28px] md:mt-[37px] mt-[54px] rounded-radius5 w-[100%]">
                     <Text
@@ -127,7 +127,7 @@ const CareersPage = () => {
                     >
                       Phone No.
                     </Text>
-                    <div className="bg-black_901 border border-gray_400 border-solid sm:h-[39px] md:h-[50px] h-[72px] mt-[11px] sm:mt-[5px] md:mt-[7px] rounded-radius5 w-[100%]"></div>
+                    <input className="bg-black_901 border border-gray_400 border-solid text-gray_400 text-2xl px-5 sm:h-[39px] md:h-[50px] h-[72px] mt-[11px] sm:mt-[5px] md:mt-[7px] rounded-radius5 w-[100%]"></input>
                   </Column>
                   <Column className="flex flex-col justify-start sm:mt-[31px] md:mt-[40px] mt-[59px] rounded-radius5 w-[100%]">
                     <Text
@@ -136,16 +136,15 @@ const CareersPage = () => {
                     >
                       Message
                     </Text>
-                    <div className="bg-black_901 border border-gray_400 border-solid sm:h-[119px] md:h-[153px] h-[222px] mt-[11px] sm:mt-[5px] md:mt-[7px] rounded-radius5 w-[100%]"></div>
+                    <input className="bg-black_901 border border-gray_400 border-solid text-gray_400 text-2xl px-5 sm:h-[119px] md:h-[153px] h-[222px] mt-[11px] sm:mt-[5px] md:mt-[7px] rounded-radius5 w-[100%]"></input>
                   </Column>
-                  <Button className="cursor-pointer font-normal min-w-[39%] sm:mt-[33px] md:mt-[43px] mt-[63px] not-italic sm:text-[20px] md:text-[22px] text-[24px] text-bluegray_900 text-center w-[max-content]">
+                  <Button className="cursor-pointer font-normal min-w-[39%] sm:mt-[33px] md:mt-[43px] mt-[63px] not-italic sm:text-[20px] md:text-[22px] text-[24px] text-bluegray_900 text-center w-[max-content]" onClick={handleNavigate11}>
                     Submit
                   </Button>
                 </Column>
               </Row>
             </Column>
           </Stack>
-          <Line className="absolute bg-gray_400 bottom-[0] h-[1030px] sm:h-[549px] md:h-[709px] inset-x-[0] mx-[auto] w-[1px]" />
         </Stack>
         <Column className="flex flex-col items-center justify-start max-w-[1202px] ml-[auto] mr-[auto] mt-[136px] sm:mt-[72px] md:mt-[93px] sm:pl-[15px] sm:pr-[15px] w-[100%]">
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start justify-between w-[100%]">
@@ -169,7 +168,7 @@ const CareersPage = () => {
                 </Text>
               </Row>
               <Text
-                className="common-pointer sm:ml-[295px] md:ml-[381px] ml-[554px] mt-[4px] not-italic text-white_A700 w-[auto]"
+                className="common-pointer sm:ml-[295px] md:ml-[381px] ml-[559px] mt-[4px] not-italic text-white_A700 w-[auto]"
                 variant="body1"
                 onClick={handleNavigate4}
               >
@@ -190,7 +189,7 @@ const CareersPage = () => {
                 </Text>
                 <Column className="flex flex-col justify-start sm:mx-[0] sm:px-[0] sm:w-[100%] w-[45%]">
                   <Text
-                    className="ml-[119px] sm:ml-[63px] md:ml-[81px] not-italic text-red_A200 w-[auto]"
+                    className="ml-[129px] sm:ml-[63px] md:ml-[81px] not-italic text-red_A200 w-[auto]"
                     variant="body1"
                   >
                     Careers

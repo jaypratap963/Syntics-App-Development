@@ -32,7 +32,7 @@ const SolutionsPage = () => {
           <Stack className="absolute h-[2309px] w-[100%]">
             <Stack className="absolute bottom-[0] h-[2305px] w-[100%]">
               <Column
-                className="absolute bg-cover bg-no-repeat flex flex-col justify-start sm:p-[15px] md:p-[34px] p-[50px] top-[0] w-[100%]"
+                className="absolute bg-cover bg-no-repeat flex flex-col justify-start sm:p-[15px] md:p-[34px] p-[50px] top-[-4px] w-[100%]"
                 style={{ backgroundImage: "url('images/img_group3.png')" }}
               >
                 <Column className="flex flex-col items-center justify-start sm:mb-[278px] md:mb-[359px] mb-[523px] md:ml-[13px] ml-[19px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[93%]">
@@ -47,7 +47,7 @@ const SolutionsPage = () => {
                         Syntics App Development Pvt. Ltd.
                       </Text>
                       <Text
-                        className="sm:ml-[193px] md:ml-[250px] ml-[364px] not-italic text-red_A200 w-[auto]"
+                        className="sm:ml-[193px] md:ml-[250px] ml-[430px] not-italic text-red_A200 w-[auto]"
                         variant="body1"
                       >
                         Solutions
@@ -107,7 +107,7 @@ const SolutionsPage = () => {
                             Android and IOS Application Development
                           </Text>
                           <Text
-                            className="leading-[normal] sm:mt-[13px] md:mt-[17px] mt-[26px] not-italic text-white_A700 w-[100%]"
+                            className="leading-[normal] text-justify sm:mt-[13px] md:mt-[17px] mt-[26px] not-italic text-white_A700 w-[100%]"
                             variant="body3"
                           >
                             For startups and fledgling businesses, Android is
@@ -134,7 +134,7 @@ const SolutionsPage = () => {
                             Salesforce Implementation & Managment
                           </Text>
                           <Text
-                            className="leading-[normal] sm:mt-[13px] md:mt-[17px] mt-[26px] not-italic text-white_A700 w-[100%]"
+                            className="leading-[normal] text-justify sm:mt-[13px] md:mt-[17px] mt-[26px] not-italic text-white_A700 w-[100%]"
                             variant="body3"
                           >
                             You can quickly set up your new Salesforce instance
@@ -159,7 +159,7 @@ const SolutionsPage = () => {
                             Mobile Application
                           </Text>
                           <Text
-                            className="leading-[normal] sm:mt-[13px] md:mt-[17px] mt-[26px] not-italic text-white_A700 w-[100%]"
+                            className="leading-[normal] text-justify sm:mt-[13px] md:mt-[17px] mt-[26px] not-italic text-white_A700 w-[100%]"
                             variant="body3"
                           >
                             SAD is a highly regarded global provider of digital
@@ -186,7 +186,7 @@ const SolutionsPage = () => {
                             Cloud Analytics Modernization
                           </Text>
                           <Text
-                            className="leading-[normal] sm:mt-[13px] md:mt-[17px] mt-[26px] not-italic text-white_A700 w-[100%]"
+                            className="leading-[normal] text-justify sm:mt-[13px] md:mt-[17px] mt-[26px] not-italic text-white_A700 w-[100%]"
                             variant="body3"
                           >
                             Real benefits of the cloud include increased
@@ -200,10 +200,10 @@ const SolutionsPage = () => {
                       </Row>
                     </List>
                   </Column>
-                  <Line className="absolute bg-gray_400 sm:h-[531px] md:h-[686px] h-[996px] left-[20%] w-[1px]" />
+                  <Line className="absolute bg-gray_400 sm:h-[531px] md:h-[686px] h-[980px] left-[20%] w-[1px]" />
                 </Stack>
                 <Text
-                  className="font-normal leading-[normal] md:ml-[501px] ml-[728px] sm:mt-[109px] md:mt-[141px] mt-[206px] sm:mx-[0] not-italic text-gray_400 sm:w-[100%] w-[38%]"
+                  className="font-normal leading-[normal] text-justify md:ml-[501px] ml-[770px] sm:mt-[109px] md:mt-[141px] mt-[240px] sm:mx-[0] not-italic text-gray_400 sm:w-[100%] w-[40%]"
                   variant="body2"
                 >
                   We consider every facet of your task and work to present a
@@ -215,10 +215,9 @@ const SolutionsPage = () => {
                 </Text>
               </Column>
             </Stack>
-            <Line className="absolute bg-gray_400 sm:h-[373px] md:h-[482px] h-[699px] inset-x-[0] mx-[auto] w-[1px]" />
           </Stack>
           <Column
-            className="absolute bg-cover bg-no-repeat bottom-[0] flex flex-col items-center justify-start left-[5%] sm:mx-[0] md:p-[103px] p-[151px] sm:p-[15px] sm:w-[100%] w-[46%]"
+            className="absolute bg-cover bg-no-repeat bottom-[0] flex flex-col items-center justify-start left-[4.5%] sm:mx-[0] md:p-[103px] p-[113px] sm:p-[15px] sm:w-[100%] w-[46%]"
             style={{ backgroundImage: "url('images/img_group12.png')" }}
           >
             <Text
@@ -262,7 +261,7 @@ const SolutionsPage = () => {
                 </Column>
               </Row>
               <Text
-                className="common-pointer sm:ml-[295px] md:ml-[381px] ml-[554px] sm:mt-[17px] md:mt-[22px] mt-[32px] not-italic text-white_A700 w-[auto]"
+                className="common-pointer sm:ml-[295px] md:ml-[381px] ml-[559px] sm:mt-[17px] md:mt-[22px] mt-[32px] not-italic text-white_A700 w-[auto]"
                 variant="body1"
                 onClick={handleNavigate9}
               >

@@ -58,7 +58,7 @@ const HomePagePage = () => {
                         Syntics App Development Pvt. Ltd.
                       </Text>
                       <Text
-                        className="common-pointer sm:ml-[193px] md:ml-[250px] ml-[364px] not-italic text-white_A700 w-[auto]"
+                        className="common-pointer sm:ml-[193px] md:ml-[250px] ml-[430px] not-italic text-white_A700 w-[auto]"
                         variant="body1"
                         onClick={handleNavigate25}
                       >
@@ -107,12 +107,12 @@ const HomePagePage = () => {
               </Column>
               <Row className="bg-black_901 border border-gray_400 border-solid flex flex-row md:flex-wrap sm:flex-wrap items-start sm:mx-[0] sm:pr-[15px] md:pr-[55px] pr-[80px] sm:w-[100%] w-[89%]">
                 <Column
-                  className="bg-cover bg-no-repeat flex flex-col items-center justify-center sm:mx-[0] p-[102px] sm:p-[15px] md:p-[70px] sm:w-[100%] w-[45%]"
+                  className="bg-cover bg-no-repeat flex flex-col items-center justify-center sm:mx-[0] p-[119px] sm:p-[15px] md:p-[70px] sm:w-[100%] w-[45%]"
                   style={{ backgroundImage: "url('images/img_group4.png')" }}
                 >
                   <Column className="flex flex-col items-center justify-start sm:my-[44px] md:my-[57px] my-[83px] sm:px-[0] w-[100%]">
                     <Text
-                      className="leading-[normal] not-italic text-white_A700 w-[100%]"
+                      className="leading-[normal] text-justify not-italic text-white_A700 w-[100%]"
                       as="h4"
                       variant="h4"
                     >
@@ -120,7 +120,7 @@ const HomePagePage = () => {
                       life.
                     </Text>
                     <Text
-                      className="leading-[normal] md:mt-[11px] mt-[16px] sm:mt-[8px] sm:mx-[0] not-italic text-gray_800 sm:w-[100%] w-[99%]"
+                      className="leading-[normal] text-justify md:mt-[11px] mt-[16px] sm:mt-[8px] sm:mx-[0] not-italic text-gray_800 sm:w-[100%] w-[99%]"
                       variant="body3"
                     >
                       Use our tools to help you bring your ideas to life. We
@@ -131,7 +131,7 @@ const HomePagePage = () => {
                     </Text>
                   </Column>
                 </Column>
-                <Column className="bg-black_902 flex flex-col items-center justify-start mb-[114px] sm:mb-[60px] md:mb-[78px] ml-[112px] md:ml-[77px] sm:mt-[120px] md:mt-[155px] mt-[226px] sm:mx-[0] sm:p-[15px] md:p-[17px] p-[25px] rounded-radius22 sm:w-[100%] w-[23%]">
+                <Column className="bg-black_902 flex flex-col items-center justify-start mb-[114px] sm:mb-[60px] md:mb-[78px] ml-[118px] md:ml-[77px] sm:mt-[120px] md:mt-[155px] mt-[226px] sm:mx-[0] sm:p-[15px] md:p-[17px] p-[25px] rounded-radius22 sm:w-[100%] w-[23%]">
                   <Text
                     className="font-normal leading-[normal] sm:mt-[34px] md:mt-[44px] mt-[65px] sm:mx-[0] not-italic text-light_blue_500 sm:w-[100%] w-[99%]"
                     variant="body2"
@@ -141,7 +141,7 @@ const HomePagePage = () => {
                     Experience analytics
                   </Text>
                   <Text
-                    className="leading-[normal] sm:mt-[19px] md:mt-[25px] mt-[37px] sm:mx-[0] not-italic text-bluegray_100 sm:w-[100%] w-[97%]"
+                    className="leading-[normal] text-justify sm:mt-[19px] md:mt-[25px] mt-[37px] sm:mx-[0] not-italic text-bluegray_100 sm:w-[100%] w-[97%]"
                     variant="body4"
                   >
                     We'll assist you in organising not only what happens to you,
@@ -158,7 +158,7 @@ const HomePagePage = () => {
                     Development
                   </Text>
                   <Text
-                    className="leading-[normal] sm:mt-[22px] md:mt-[28px] mt-[42px] sm:mx-[0] not-italic text-bluegray_100 sm:w-[100%] w-[97%]"
+                    className="leading-[normal] text-justify sm:mt-[22px] md:mt-[28px] mt-[42px] sm:mx-[0] not-italic text-bluegray_100 sm:w-[100%] w-[97%]"
                     variant="body4"
                   >
                     With us, anything is possible, even the seemingly
@@ -170,7 +170,7 @@ const HomePagePage = () => {
               </Row>
             </Column>
           </Column>
-          <Column className="absolute bg-black_902 bottom-[27%] flex flex-col justify-start sm:mx-[0] overflow-y-visible sm:p-[15px] md:p-[17px] p-[25px] right-[31%] rounded-radius22 sm:w-[100%] w-[19%]">
+          <Column className="absolute bg-black_902 bottom-[35%] flex flex-col justify-start sm:mx-[0] overflow-y-visible sm:p-[15px] md:p-[17px] p-[25px] right-[31%] rounded-radius22 sm:w-[100%] w-[19%]">
             <Text
               className="font-normal leading-[normal] sm:mt-[34px] md:mt-[44px] mt-[65px] sm:mx-[0] not-italic text-light_blue_500 sm:w-[100%] w-[89%]"
               variant="body2"
@@ -180,7 +180,7 @@ const HomePagePage = () => {
               Development
             </Text>
             <Text
-              className="leading-[normal] sm:mt-[18px] md:mt-[24px] mt-[35px] sm:mx-[0] not-italic text-bluegray_100 sm:w-[100%] w-[95%]"
+              className="leading-[normal] text-justify sm:mt-[18px] md:mt-[24px] mt-[35px] sm:mx-[0] not-italic text-bluegray_100 sm:w-[100%] w-[95%]"
               variant="body4"
             >
               There are mobile apps for iOS and Android to suit every
@@ -188,7 +188,7 @@ const HomePagePage = () => {
             </Text>
             <Line className="bg-gray_600 h-[10px] sm:mb-[13px] md:mb-[17px] mb-[25px] sm:mt-[39px] md:mt-[50px] mt-[74px] sm:w-[100%] w-[97%]" />
           </Column>
-          <Column className="absolute bg-black_902 bottom-[-250px] flex flex-col gap-[px] justify-end sm:mx-[0] md:p-[15px] sm:p-[15px] p-[23px] right-[11%] rounded-radius22 sm:w-[100%] w-[19%]">
+          <Column className="absolute bg-black_902 bottom-[10px] flex flex-col gap-[px] justify-end sm:mx-[0] md:p-[px] sm:p-[15px] p-[23px] right-[10.7%] rounded-radius22 sm:w-[100%] w-[19%]">
             <Text
               className="font-normal leading-[normal] ml-[2px] sm:mt-[27px] md:mt-[35px] mt-[52px] sm:mx-[0] not-italic text-light_blue_500 sm:w-[100%] w-[87%]"
               variant="body2"
@@ -196,7 +196,7 @@ const HomePagePage = () => {
               Salesforce Implementation & Managment
             </Text>
             <Text
-              className="leading-[normal] ml-[2px] sm:mt-[12px] md:mt-[16px] mt-[24px] sm:mx-[0] not-italic text-bluegray_100 sm:w-[100%] w-[94%]"
+              className="leading-[normal] text-justify ml-[2px] sm:mt-[12px] md:mt-[16px] mt-[24px] sm:mx-[0] not-italic text-bluegray_100 sm:w-[100%] w-[94%]"
               variant="body4"
             >
               This data is used by the tool to enable a range of analytics use
@@ -207,7 +207,7 @@ const HomePagePage = () => {
           </Column>
         </Stack>
         <Column className="flex flex-col items-center justify-start max-w-[1275px] ml-[auto] mr-[auto] sm:mt-[51px] md:mt-[66px] mt-[96px] sm:pl-[15px] sm:pr-[15px] w-[100%]">
-          <Row className="bg-black_901 border border-gray_400 border-solid flex flex-row md:flex-wrap sm:flex-wrap items-center justify-between m-[250px] sm:pr-[15px] md:pr-[52px] pr-[76px] w-[100%]">
+          <Row className="bg-black_901 border border-gray_400 border-solid flex flex-row md:flex-wrap sm:flex-wrap items-center justify-between m-[0px] sm:pr-[15px] md:pr-[52px] pr-[76px] w-[100%]">
             <Column
               className="bg-cover bg-no-repeat flex flex-col items-end sm:mx-[0] sm:p-[15px] md:p-[64px] p-[94px] sm:w-[100%] w-[50%]"
               style={{ backgroundImage: "url('images/img_group5.png')" }}
@@ -224,7 +224,7 @@ const HomePagePage = () => {
             </Column>
             <Column className="flex flex-col sm:mx-[0] sm:px-[0] rounded-radius10 sm:w-[100%] w-[41%]">
               <Text
-                className="font-normal leading-[normal] not-italic text-gray_400 w-[100%]"
+                className="font-normal text-justify leading-[normal] not-italic text-gray_400 w-[100%]"
                 variant="body2"
               >
                 Our web application development and custom programming services
@@ -298,7 +298,7 @@ const HomePagePage = () => {
                 </Row>
                 <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start ml-[1px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[94%]">
                   <Column
-                    className="bg-cover bg-no-repeat flex flex-col items-center justify-start sm:mx-[0] p-[102px] sm:p-[15px] md:p-[70px] sm:w-[100%] w-[54%]"
+                    className="bg-cover bg-no-repeat flex flex-col items-center justify-start sm:mx-[0] p-[78px] sm:p-[15px] md:p-[70px] sm:w-[100%] w-[54%]"
                     style={{ backgroundImage: "url('images/img_group6.png')" }}
                   >
                     <Text
@@ -311,9 +311,9 @@ const HomePagePage = () => {
                       Your Business ?
                     </Text>
                   </Column>
-                  <Column className="flex flex-col justify-start ml-[125px] md:ml-[86px] sm:mt-[126px] md:mt-[163px] mt-[237px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[37%]">
+                  <Column className="flex flex-col justify-start ml-[125px] md:ml-[86px] sm:mt-[126px] md:mt-[163px] mt-[206px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[37%]">
                     <Text
-                      className="font-normal leading-[normal] not-italic text-gray_400 w-[100%]"
+                      className="font-normal text-justify leading-[normal] not-italic text-gray_400 w-[100%]"
                       variant="body2"
                     >
                       Get in touch with our team, and we'll start by having the
@@ -363,7 +363,7 @@ const HomePagePage = () => {
                   </Column>
                 </Row>
                 <Text
-                  className="common-pointer sm:ml-[295px] md:ml-[381px] ml-[554px] sm:mt-[17px] md:mt-[22px] mt-[32px] not-italic text-white_A700 w-[auto]"
+                  className="common-pointer sm:ml-[295px] md:ml-[381px] ml-[561px] sm:mt-[17px] md:mt-[22px] mt-[32px] not-italic text-white_A700 w-[auto]"
                   variant="body1"
                   onClick={handleNavigate23}
                 >
